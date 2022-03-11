@@ -73,7 +73,7 @@ div > .btn-read {
 }
 .fondo-priorities {
   background-image: url("static/fondos/bg-priorities.jpg");
-  /*height: 100vh;*/
+  height: 100vh;
   /*background-size: cover;*/
 }
 .title {
