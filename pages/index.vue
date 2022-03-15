@@ -22,6 +22,63 @@
     <div class="fondo-priorities">
       <Priorities></Priorities>
     </div>
+    <ExactlyDoWeDo></ExactlyDoWeDo>
+
+
+    <section class="section-cite pt-4">
+      <div class="text-center py-5 mt-5">
+        <p>
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur deserunt
+            dolorum ea est facere hic magni minima minus mollitia, necessitatibus nulla optio pariatur, reiciendis rem sed tempore voluptate.</span>
+        </p>
+        <cite class="font-weight-bold pt-4 pb-5">
+          David Johnson
+        </cite>
+      </div>
+    </section>
+
+
+    <NatureIsAbove></NatureIsAbove>
+    <BuyTickets></BuyTickets>
+
+
+    <section class="py-5 coment-fechas">
+      <div class="d-flex justify-content-center">
+        <div class="col-lg-3">
+          <p>
+            Lorem ipsum dolor sit <br>
+            Trips/ 16th March, 2019
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            Lorem ipsum dolor sit <br>
+            Trips/ 16th March, 2019
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <p>
+            Lorem ipsum dolor sit <br>
+            Trips/ 16th March, 2019
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-second-cite pt-4">
+      <div class="text-center py-5 mt-5">
+        <p>
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores consectetur deserunt
+            dolorum ea est facere hic magni minima minus mollitia, necessitatibus nulla optio pariatur, reiciendis rem sed tempore voluptate.</span>
+        </p>
+        <cite class="font-weight-bold pt-4 pb-5">
+          David Johnson
+        </cite>
+      </div>
+    </section>
+
+    <Footer></Footer>
+
   </div>
 </template>
 
@@ -30,9 +87,22 @@ import Header from "~/components/Header";
 import whoAreWe from "~/components/Who-are-we";
 import weUse from "~/components/We-use";
 import priorities from "~/components/Priorities";
+import ExactlyDoWeDo from "@/components/Exactly-do-we-do";
+import NatureIsAbove from "@/components/Nature-is-above";
+import BuyTickets from "@/components/Buy-tickets";
+import Footer from "@/layouts/Footer";
 
 export default {
-  components: {Header, whoAreWe, weUse, priorities},
+  components: {
+    Header,
+    whoAreWe,
+    weUse,
+    priorities,
+    ExactlyDoWeDo,
+    NatureIsAbove,
+    BuyTickets,
+    Footer,
+  },
 }
 </script>
 
@@ -42,9 +112,11 @@ export default {
   padding: 0;
   margin: 0;
 }
+
 .webmain {
   background-color: rgb(0, 0, 0);
 }
+
 .fondo-header {
   background-image: url("static/fondos/bg-header.jpg");
   height: 100vh;
@@ -64,6 +136,7 @@ div > p {
   text-align: center;
   font-size: 1.2rem;
 }
+
 div > .btn-read {
   background-color: white;
   color: #3ea2d8;
@@ -71,10 +144,54 @@ div > .btn-read {
   width: 184px;
   font-weight: 500;
 }
+
 .fondo-priorities {
   background-image: url("static/fondos/bg-priorities.jpg");
   height: 100vh;
   /*background-size: cover;*/
+}
+
+.section-cite {
+  background-color: rgb(31, 29, 29);
+}
+
+.section-cite > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-cite > div > p {
+  width: 60%;
+  margin: 0 auto;
+  color: #3ea2d8;
+}
+
+.section-cite > div > cite {
+  color: #3ea2d8;
+}
+
+.section-second-cite {
+  background-color: rgb(0, 0, 0);
+}
+
+.section-second-cite > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section-second-cite > div > p {
+  width: 60%;
+  margin: 0 auto;
+  color: #3ea2d8;
+}
+.section-second-cite > div > cite {
+  color: #3ea2d8;
+}
+
+.coment-fechas {
+  background-color: rgb(31, 29, 29);
 }
 .title {
   font-family: 'Quicksand',

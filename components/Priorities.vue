@@ -16,30 +16,27 @@
           <p class="infoAdmin py-3">
             <span>"Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do."</span>
           </p>
-          <cite class="text-center pt-3">
-            Adams Jhons
-            Account Manager
-          </cite>
+          <cite class="text-center pt-3 font-weight-bold">
+            Adams Jhons </cite>
+          <span class="text-center" >Account Manager</span>
         </div>
         <div class="card">
           <h4 class="text-uppercase text-center pb-2">company</h4>
           <p class="infoAdmin py-3">
             <span>"Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do."</span>
           </p>
-          <cite class="text-center pt-3">
-            Adams Jhons
-            Account Manager
-          </cite>
+          <cite class="text-center pt-3 font-weight-bold">
+            Adams Jhons </cite>
+            <span class="text-center" >Account Manager</span>
         </div>
         <div class="card">
           <h4 class="text-uppercase text-center pb-2">company</h4>
           <p class="infoAdmin py-3">
             <span>"Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do."</span>
           </p>
-          <cite class="text-center pt-3">
-            Adams Jhons
-            Account Manager
-          </cite>
+          <cite class="text-center pt-3 font-weight-bold">
+            Adams Jhons </cite>
+          <span class="text-center" >Account Manager</span>
         </div>
       </div>
     </div>
